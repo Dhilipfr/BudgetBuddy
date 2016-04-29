@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="dhilip.code.org.budgetbuddy.ListDetails">
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinActionList"
+        android:gravity="left|center"/>
+
+   <EditText
+        android:layout_width="match_parent"
+        android:layout_height="75px"
+        android:id="@+id/txtSearchText"
+        android:layout_gravity="center_horizontal"
+        android:hint="Search by description" />
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/summaryList" />
+</LinearLayout>
